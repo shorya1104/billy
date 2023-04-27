@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=Orbitron&family=Play:wght@700&family=Poppins:wght@200;300&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,900&display=swap');
+
+/* Added media quries */
+/* =========================== Add Blog Page ======================= */
+@media only screen and (max-width: 550px) {
+    .img-handler {
+        flex-direction: column;
+    }
+}
+
+
+/* =========================== Add Blog Page ======================= */
+
+
+@media only screen and (max-width: 767px) {
+    .blog-handler {
+        flex-direction: column;
+    }
+
+}
+
+
+/* ===========================  Blog Page ======================= */
+.main-handler::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+/* ===========================  Ticket Register Page ======================= */
+.scrollHandler::-webkit-scrollbar {
+    display: none;
+}
+
+/* ===========================  Ticket Download Page ======================= */
+
+.ticket-container {
+    border: 2px solid;
+    margin: auto;
+    width: 100%;
+    max-width: 80%;
+}
+
+
+
+.responsive-bg-w-text img {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 6vh;
+    left: 0rem;
+    right: 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+}
+.headerpriview {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 33vh;
+    left: 0rem;
+    right: 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+}
+
+
+.offer-text-handler {
+    font-size: 1.2vw;
+    font-family: 'Orbitron', sans-serif;
+    font-style: italic;
+}
+
+.win-text-handler {
+    font-size: 1.3vw;
+    letter-spacing: 5px;
+    color: #E74400;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.ticket-id-handler {
+    font-size: 1.1vw;
+}
+
+.ticket-id-handler span {
+    font-size: 1vw;
+    padding: 1px 10px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    background-color: #8B3300;
+    color: white;
+}
+
+
+.draw-announce-handler {
+    font-size: 1vw;
+    font-family: 'Play', sans-serif;
+    color: black;
+}
+
+.date-text-handler {
+    font-size: 0.9vw;
+    font-family: 'Hind', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    border-top: solid 0.06rem;
+    border-bottom: solid 0.06rem;
+    padding: 0px 30px;
+}
+
+
+
+
+@media only screen and (max-width: 1260px) {
+    .header {
+        top: 6vh;
+        line-height: 8px;
+    }
+    .headerpriview{
+        top: 40vh;
+        line-height: 8px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header {
+        top: 5vh;
+        line-height: 3px;
+    }
+    .headerpriview{
+        top: 24vh;
+        line-height: 3px;
+    }
+    .date-text-handler {
+        line-height: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .header {
+        top: 12vh;
+        line-height: 15px;
+    }
+    .headerpriview{
+        top: 18vh;
+        line-height: 3px;
+    }
+    .date-text-handler {
+        line-height: 15px;
+    }
+
+    .offer-text-handler {
+        font-size: 2.2vw;
+    }
+
+    .win-text-handler {
+        font-size: 3vw;
+    }
+
+    .ticket-id-handler {
+        font-size: 3vw;
+    }
+
+    .ticket-id-handler span {
+        font-size: 2vw;
+        padding: 3px 15px;
+    }
+
+
+    .draw-announce-handler {
+        font-size: 2.2vw;
+    }
+
+    .date-text-handler {
+        font-size: 2vw;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .header {
+        top: 4vh;
+        line-height: 8px;
+    }
+}
+
+/* ================================================= */
+.form-handler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px dashed;
+    border-color: (-border-primary);
+    padding: 15px;
+    margin: 1rem 0px;
+}
+
+.uploded-row {
+    width: 100%;
+    max-width: 80%;
+    padding: 5px 0px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: #e9f0ff;
+    cursor: pointer;
+}
+
+
+
+/* ===================== */
+
+
+.ticket-container {
+    border: 2px solid;
+    margin: auto;
+    width: 100%;
+    max-width: 80%;
+}
+
+.card-bg-w-text {
+    display: flex;
+    /* background: url('../Frame1.png'); */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 66.66%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-bg-w-text>.header-card {
+    text-align: center;
+    display: inline;
+    margin-top: 45.66%;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 0 0 .5em #F9A825;
+}
+
+.header-card {
+    line-height: 1;
+    margin-left: 25px;
+}
+
+
+.offer-card-text-handler {
+    font-size: 1.2vw;
+    font-family: 'Orbitron', sans-serif;
+    font-style: italic;
+}
+
+.card-text-handler {
+    font-size: 0.8vw;
+    letter-spacing: 5px;
+    color: #E74400;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card-id-handler {
+    font-size: 1.1vw;
+}
+
+.card-id-handler span {
+    font-size: 1vw;
+    padding: 1px 10px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    background-color: #8B3300;
+    color: white;
+}
+
+
+
+
+.date-text-handler {
+    font-size: 0.9vw;
+    font-family: 'Hind', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    border-top: solid 0.06rem;
+    border-bottom: solid 0.06rem;
+    padding: 2px 30px;
+}
+
+
+.offer-date {
+    font-size: 0.7vw;
+    font-weight: bold;
+}
+
+.add-left-container {
+    width: 100%;
+    max-width: 70%;
+}
+
+.add-right-container {
+    width: 100%;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-handler {
+    overflow: auto;
+    height: 20vh;
+    padding: 0px 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin: 1rem 5px;
+}
+
+.category-handler::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 1400px) {
+    .offer-date {
+        font-size: 1vw;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .add-left-container {
+        max-width: 60%;
+    }
+
+    .add-right-container {
+        max-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .offer-card-text-handler {
+        margin: 5px 0px;
+        font-size: 1.8vw;
+    }
+
+    .card-id-handler {
+        margin: 4px;
+    }
+
+    .card-text-handler {
+        margin: 5px;
+        font-size: 1.8vw;
+    }
+
+    .offer-date {
+        font-size: 1.5vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .offer-card-text-handler {
+        font-size: 2vw;
+    }
+
+    .card-text-handler {
+        font-size: 2vw;
+    }
+
+    .card-id-handler {
+        font-size: 3vw;
+    }
+
+    .card-id-handler span {
+        font-size: 2vw;
+        padding: 3px 15px;
+    }
+
+
+
+    .date-text-handler {
+        font-size: 2vw;
+    }
+
+    .add-container {
+        flex-direction: column;
+    }
+
+    .add-left-container {
+        max-width: 100%;
+    }
+
+    .add-right-container {
+        max-width: 100%;
+
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .offer-card-text-handler {
+        font-size: 3vw;
+    }
+
+    .card-text-handler {
+        font-size: 3vw;
+        line-height: 40px;
+    }
+
+    .offer-date {
+        font-size: 3vw;
+    }
+}
